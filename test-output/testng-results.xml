@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="158" started-at="2019-10-22T04:16:02Z" finished-at="2019-10-22T04:16:02Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="158" started-at="2019-10-22T04:16:02Z" finished-at="2019-10-22T04:16:02Z">
+      <class name="SourabhTiwari.InvocationTest">
+        <test-method status="PASS" signature="loadTestThisWebsite()[pri:0, instance:SourabhTiwari.InvocationTest@7823a2f9]" name="loadTestThisWebsite" duration-ms="25" started-at="2019-10-22T04:16:02Z" finished-at="2019-10-22T04:16:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadTestThisWebsite -->
+        <test-method status="PASS" signature="loadTestThisWebsite()[pri:0, instance:SourabhTiwari.InvocationTest@7823a2f9]" name="loadTestThisWebsite" duration-ms="25" started-at="2019-10-22T04:16:02Z" finished-at="2019-10-22T04:16:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadTestThisWebsite -->
+        <test-method status="PASS" signature="loadTestThisWebsite()[pri:0, instance:SourabhTiwari.InvocationTest@7823a2f9]" name="loadTestThisWebsite" duration-ms="25" started-at="2019-10-22T04:16:02Z" finished-at="2019-10-22T04:16:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadTestThisWebsite -->
+        <test-method status="PASS" signature="loadTestThisWebsite()[pri:0, instance:SourabhTiwari.InvocationTest@7823a2f9]" name="loadTestThisWebsite" duration-ms="5" started-at="2019-10-22T04:16:02Z" finished-at="2019-10-22T04:16:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadTestThisWebsite -->
+        <test-method status="PASS" signature="loadTestThisWebsite()[pri:0, instance:SourabhTiwari.InvocationTest@7823a2f9]" name="loadTestThisWebsite" duration-ms="3" started-at="2019-10-22T04:16:02Z" finished-at="2019-10-22T04:16:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadTestThisWebsite -->
+        <test-method status="PASS" signature="loadTestThisWebsite()[pri:0, instance:SourabhTiwari.InvocationTest@7823a2f9]" name="loadTestThisWebsite" duration-ms="4" started-at="2019-10-22T04:16:02Z" finished-at="2019-10-22T04:16:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadTestThisWebsite -->
+        <test-method status="PASS" signature="loadTestThisWebsite()[pri:0, instance:SourabhTiwari.InvocationTest@7823a2f9]" name="loadTestThisWebsite" duration-ms="4" started-at="2019-10-22T04:16:02Z" finished-at="2019-10-22T04:16:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadTestThisWebsite -->
+        <test-method status="PASS" signature="loadTestThisWebsite()[pri:0, instance:SourabhTiwari.InvocationTest@7823a2f9]" name="loadTestThisWebsite" duration-ms="2" started-at="2019-10-22T04:16:02Z" finished-at="2019-10-22T04:16:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadTestThisWebsite -->
+        <test-method status="PASS" signature="loadTestThisWebsite()[pri:0, instance:SourabhTiwari.InvocationTest@7823a2f9]" name="loadTestThisWebsite" duration-ms="2" started-at="2019-10-22T04:16:02Z" finished-at="2019-10-22T04:16:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadTestThisWebsite -->
+      </class> <!-- SourabhTiwari.InvocationTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
