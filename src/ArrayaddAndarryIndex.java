@@ -25,7 +25,7 @@ public static void main(String[] args) {
 			}
 			else if (big<a[i]) {
 				
-				big = a[i-1];
+				big = a[i];
 				lindex = i;
 			}
 		}

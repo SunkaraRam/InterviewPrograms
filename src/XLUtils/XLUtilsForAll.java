@@ -15,17 +15,15 @@ public class XLUtilsForAll {
 	static Workbook wb;
 	public static int getRowCount(String filename,String sheetname) throws Throwable {
 		
-		 fi = new FileInputStream(filename);
+		fi = new FileInputStream(filename);
 		
-		  wb= new XSSFWorkbook(fi);
+		wb= new XSSFWorkbook(fi);
 		
 		Sheet s = wb.getSheet(sheetname);
 		
 		int rc = s.getLastRowNum();
 		
-		return rc;
-		
-	
+		return rc;	
 	}
 
 }

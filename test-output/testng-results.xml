@@ -1,49 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="158" started-at="2019-10-22T04:16:02Z" finished-at="2019-10-22T04:16:02Z">
+  <suite name="Default suite" duration-ms="56" started-at="2020-01-22T04:43:44Z" finished-at="2020-01-22T04:43:44Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="158" started-at="2019-10-22T04:16:02Z" finished-at="2019-10-22T04:16:02Z">
-      <class name="SourabhTiwari.InvocationTest">
-        <test-method status="PASS" signature="loadTestThisWebsite()[pri:0, instance:SourabhTiwari.InvocationTest@7823a2f9]" name="loadTestThisWebsite" duration-ms="25" started-at="2019-10-22T04:16:02Z" finished-at="2019-10-22T04:16:02Z">
+    <test name="Default test" duration-ms="56" started-at="2020-01-22T04:43:44Z" finished-at="2020-01-22T04:43:44Z">
+      <class name="Legato.StaticFinal">
+        <test-method status="PASS" signature="main()[pri:0, instance:Legato.StaticFinal@457e2f02]" name="main" duration-ms="16" started-at="2020-01-22T04:43:44Z" finished-at="2020-01-22T04:43:44Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loadTestThisWebsite -->
-        <test-method status="PASS" signature="loadTestThisWebsite()[pri:0, instance:SourabhTiwari.InvocationTest@7823a2f9]" name="loadTestThisWebsite" duration-ms="25" started-at="2019-10-22T04:16:02Z" finished-at="2019-10-22T04:16:02Z">
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="main1()[pri:0, instance:Legato.StaticFinal@457e2f02]" name="main1" duration-ms="0" started-at="2020-01-22T04:43:44Z" finished-at="2020-01-22T04:43:44Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loadTestThisWebsite -->
-        <test-method status="PASS" signature="loadTestThisWebsite()[pri:0, instance:SourabhTiwari.InvocationTest@7823a2f9]" name="loadTestThisWebsite" duration-ms="25" started-at="2019-10-22T04:16:02Z" finished-at="2019-10-22T04:16:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loadTestThisWebsite -->
-        <test-method status="PASS" signature="loadTestThisWebsite()[pri:0, instance:SourabhTiwari.InvocationTest@7823a2f9]" name="loadTestThisWebsite" duration-ms="5" started-at="2019-10-22T04:16:02Z" finished-at="2019-10-22T04:16:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loadTestThisWebsite -->
-        <test-method status="PASS" signature="loadTestThisWebsite()[pri:0, instance:SourabhTiwari.InvocationTest@7823a2f9]" name="loadTestThisWebsite" duration-ms="3" started-at="2019-10-22T04:16:02Z" finished-at="2019-10-22T04:16:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loadTestThisWebsite -->
-        <test-method status="PASS" signature="loadTestThisWebsite()[pri:0, instance:SourabhTiwari.InvocationTest@7823a2f9]" name="loadTestThisWebsite" duration-ms="4" started-at="2019-10-22T04:16:02Z" finished-at="2019-10-22T04:16:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loadTestThisWebsite -->
-        <test-method status="PASS" signature="loadTestThisWebsite()[pri:0, instance:SourabhTiwari.InvocationTest@7823a2f9]" name="loadTestThisWebsite" duration-ms="4" started-at="2019-10-22T04:16:02Z" finished-at="2019-10-22T04:16:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loadTestThisWebsite -->
-        <test-method status="PASS" signature="loadTestThisWebsite()[pri:0, instance:SourabhTiwari.InvocationTest@7823a2f9]" name="loadTestThisWebsite" duration-ms="2" started-at="2019-10-22T04:16:02Z" finished-at="2019-10-22T04:16:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loadTestThisWebsite -->
-        <test-method status="PASS" signature="loadTestThisWebsite()[pri:0, instance:SourabhTiwari.InvocationTest@7823a2f9]" name="loadTestThisWebsite" duration-ms="2" started-at="2019-10-22T04:16:02Z" finished-at="2019-10-22T04:16:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loadTestThisWebsite -->
-      </class> <!-- SourabhTiwari.InvocationTest -->
+        </test-method> <!-- main1 -->
+      </class> <!-- Legato.StaticFinal -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

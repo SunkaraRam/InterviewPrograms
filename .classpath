@@ -25,5 +25,6 @@
 	<classpathentry kind="lib" path="D:/JARS/POI and ER and common/selenium-server-standalone-3.141.59.jar"/>
 	<classpathentry kind="lib" path="D:/JARS/POI and ER and common/sqlite-jdbc-3.8.11.1.jar"/>
 	<classpathentry kind="lib" path="D:/JARS/POI and ER and common/xmlbeans-2.6.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/SunkaraRam/Desktop/MyReusableJars/Version3/ReusableProject-0.0.1-SNAPSHOT.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

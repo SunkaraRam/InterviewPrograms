@@ -8,7 +8,7 @@ public class NumbersFromStringWithSEtoggle {
 
 	public static void main(String[] args) {
 		
-		//Logic();
+		Logic();
 		
 		//FirstLastSmallmiddleUpper();
 		
@@ -16,9 +16,11 @@ public class NumbersFromStringWithSEtoggle {
 		
 		//addNumbersFromString();
 		
+		//practice();
+		
 		//largestWord();
 		
-		addNumbersFromString();
+		//addNumbersFromString();
 	}
 
 	public static void FirstLastUpperLetters() {
@@ -170,8 +172,6 @@ public class NumbersFromStringWithSEtoggle {
 		
 		String str = s.nextLine();
 		
-		StringBuffer sBuffer = new StringBuffer();
-		
 		//Pattern p = Pattern.compile("-?\\d+(,\\d+)*?\\.?\\d+?");
 		
 	
@@ -203,23 +203,16 @@ public class NumbersFromStringWithSEtoggle {
 		
 		int inp = s.nextInt();
 		
-		int count=0;
-		
-		
 		for (int i = 1; i <= inp; i++) {
 			
 			for (int j = 1; j <=i; j++) {
 				
-				System.out.print(i);
+				System.out.print(i);	
 				
-				
-				if (j<i) {
-					
+				if (j<i) {		
 					System.out.print("*");
-					
 				}
 				
-				count =j;
 			
 			}
 			System.out.println("");
@@ -237,12 +230,37 @@ public class NumbersFromStringWithSEtoggle {
 					
 				}
 				
-				count =j;
 				
 			}
 			System.out.println();
 		}
 		
 	}
+	
+	public static void practice() {
+		
+		String name = "rams@ ad1010.s56f8lj%--";
+		
+		char[] ch =name.toCharArray();
+		
+		for(int i=0 ;i<ch.length;i++) {
+			
+//			if (!Character.isLetter(ch[i])&&!Character.isDigit(ch[i])&&!Character.isSpace(ch[i])) {
+//				
+//				System.out.println(i+" "+ch[i]);
+//				
+//			}
+			
+			if (Character.isDigit(ch[i])) {
+				
+				System.out.println(i+" "+ch[i]);
+				
+			}
+			
+		}
+		
+		
+	}
+	
 	
 }

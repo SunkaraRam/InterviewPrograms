@@ -6,7 +6,7 @@ public class MissingNumberFromArray {
 
 	public static void main(String[] args) {
 		
-		int[] arr = new int[]{-5,1,2,3,5,6,7,8,9,};
+		int[] arr = new int[]{-5,1,2,3,5,6,7,8,9,36};
 		
 		Arrays.sort(arr);
 		
@@ -19,9 +19,9 @@ public class MissingNumberFromArray {
 			for (int j = i+1; j < arr.length; j++) {
 				
 				
-				//System.out.println(arr[i]+"Missing Numbers"+arr[j]);
+				System.out.println(arr[i]+"Missing Numbers"+arr[j]);
 				
-				for (int j2 = arr[i]+1; j2 < arr[j]; j2++) {
+				for (int j2 = arr[i]+1; j2 < arr[j]; j2++){
 					
 					System.out.println(j2);
 				}

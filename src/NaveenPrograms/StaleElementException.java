@@ -10,7 +10,7 @@ public class StaleElementException {
 
 	public static void main(String[] args) throws InterruptedException {
 		
-		System.setProperty("webdriver.chrome.driver", "D:\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "D:\\LatestDrivers\\chromedriver.exe");
 		
 		WebDriver driver = new ChromeDriver();  
 	
@@ -23,7 +23,6 @@ public class StaleElementException {
 		driver.get("http://www.gmail.com");
 		
 		driver.findElement(By.xpath("//a[text()='Help']")).click();
-		
 		
 		driver.findElement(By.id("identifierId")).click();
 		

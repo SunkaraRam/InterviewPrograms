@@ -6,9 +6,14 @@ import java.io.IOException;
 
 public class ParentException {
 
-	public static void main(String[] args) throws IOException {
+	public static void main(String[] args){
 		
-		m1();
+		try {
+			m1();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		
 	}
 

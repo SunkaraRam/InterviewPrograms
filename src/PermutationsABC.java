@@ -28,7 +28,7 @@ public class PermutationsABC {
 		
 		charArray[j] = temp;
 	
-		System.out.println("String swap "+String.valueOf(charArray));
+		//System.out.println("String swap "+String.valueOf(charArray));
 		
 		return String.valueOf(charArray);
 	
@@ -50,6 +50,8 @@ public class PermutationsABC {
 				permute(str, k+1, r);
 			
 				str  =swap(str, k, i);
+				
+				System.out.println(str);
 			}
 		}
 	

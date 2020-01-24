@@ -32,8 +32,6 @@ public class DuplicateStringInStringArray {
 		
 		for (int i = 0; i < words.length; i++) {
 			
-			int count =1;
-			
 			if (map.containsKey(words[i])) {
 				
 				map.put(words[i], map.get(words[i])+1);

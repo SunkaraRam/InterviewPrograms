@@ -27,16 +27,18 @@ public class DuplicateNumberFromArrayWithHashSetandHashMap {
 		
 		Set<Character> set = new HashSet<Character>();
 		
+		Set<Character> set1 = new HashSet<Character>();
+		
 		char[] ch = name.toLowerCase().toCharArray();
 		
 		for (int i = 0; i < ch.length; i++) {
 			
 			if (set.add(ch[i])==false) {
 				
-				System.out.println(ch[i]);
+				set1.add(ch[i]);
 			}
 		}
-		
+		System.out.println(set1);
 	}
 
 }
