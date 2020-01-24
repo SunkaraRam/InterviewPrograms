@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="56" started-at="2020-01-22T04:43:44Z" finished-at="2020-01-22T04:43:44Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="56" started-at="2020-01-22T04:43:44Z" finished-at="2020-01-22T04:43:44Z">
+      <class name="Legato.StaticFinal">
+        <test-method status="PASS" signature="main()[pri:0, instance:Legato.StaticFinal@457e2f02]" name="main" duration-ms="16" started-at="2020-01-22T04:43:44Z" finished-at="2020-01-22T04:43:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="main1()[pri:0, instance:Legato.StaticFinal@457e2f02]" name="main1" duration-ms="0" started-at="2020-01-22T04:43:44Z" finished-at="2020-01-22T04:43:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main1 -->
+      </class> <!-- Legato.StaticFinal -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
