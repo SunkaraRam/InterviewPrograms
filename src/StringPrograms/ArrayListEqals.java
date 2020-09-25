@@ -72,21 +72,38 @@ public class ArrayListEqals {
 //											//Mistake in CL	
 //		int large = 0;
 		
-		for(int i=0;i<arr.length;i++) {
+//		for(int i=0;i<arr.length;i++) {
+//			
+//			if(arr[i]<small){
+//				small = arr[i];
+//			}			
+//			
+//			else if(large<arr[i]) {
+//				large = arr[i];
+//			}
+//		}
+//		
+//		System.out.println("small "+small);
+//		
+//		System.out.println("large " +large);
+		
+		int temp = 0;
+		
+		for (int i = 0; i < arr.length; i++) {
 			
-			if(arr[i]<small){
-				small = arr[i];
-			}			
-			
-			else if(large<arr[i]) {
-				large = arr[i];
+			for (int j = i+1; j < arr.length; j++) {
+				
+				if (arr[i]>arr[j]) {
+					temp = arr[i];
+					arr[i]=arr[j];
+					arr[j]=temp;
+				}
+				
 			}
 		}
 		
-		System.out.println("small "+small);
-		
-		System.out.println("large " +large);
-		
+		System.out.println("small number   " +arr[0]);
+		System.out.println("Large Number " +arr[arr.length-1]);
 		
 		
 	}

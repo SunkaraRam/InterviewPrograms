@@ -2,7 +2,7 @@ package capitalOne;
 
 public class ConstructorPreference {
 
-	static int a;
+	static int a=322;
 	static String str;
 
 	static {
@@ -27,7 +27,11 @@ public class ConstructorPreference {
 		
 		ConstructorPreference c = new ConstructorPreference();
 		
-		System.out.println(c.a);
+		//a=200;
+		
+		System.out.println(a);
+		
+		System.out.println(str);
 		
 	}
 }

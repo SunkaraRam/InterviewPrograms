@@ -1,5 +1,5 @@
 
-public class ArrayaddAndarryIndex {
+public class ArraySmallLarge {
 	
 public static void main(String[] args) {
 		
@@ -13,20 +13,20 @@ public static void main(String[] args) {
 		
 		//int tot = 0;
 		
-		int sindex=0,lindex=0 ;
-		for (int i = 0; i < a.length; i++) {
+//		int sindex=0,lindex=0 ;
+		for (int i = 0; i < a.length; i++) {      
 		
 		//	tot = tot+a[i];
 			
 			if (a[i]<small) {
 				
 				small = a[i];
-				sindex = i;
+		//		sindex = i;
 			}
 			else if (big<a[i]) {
 				
 				big = a[i];
-				lindex = i;
+			//	lindex = i;
 			}
 		}
 		
@@ -34,7 +34,7 @@ public static void main(String[] args) {
 		
 		System.out.println("small :" +small);
 		System.out.println("big :" +big);
-		System.out.println("Large index :" + lindex);
+		//System.out.println("Large index :" + lindex);
 	
 }
 	

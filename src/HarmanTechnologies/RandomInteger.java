@@ -10,15 +10,13 @@ public class RandomInteger {
 	public static void main(String[] args) {
 		
 		for (int i = 1; i <=10; i++) {
-		
-			int rd1to100 = ThreadLocalRandom.current().nextInt(1,100+1);
+			
+			int rd1to100 = ThreadLocalRandom.current().nextInt(1,100);
 			
 			System.out.println(rd1to100+" ");
 			
 		}
-		
-		
-		
+
 	}
 	
 }

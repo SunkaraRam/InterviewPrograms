@@ -25,25 +25,40 @@ public class DuplicateCharacterCount {
 		
 		HashSet hset = new HashSet();
 		
+		HashSet duplicates = new  HashSet<>();
+		
 		char[] inp=ss.toCharArray();
 		
 		for (int i = 0; i < inp.length; i++) {
 			
-			for (int j = i+1; j < inp.length; j++) {
-				
-				
-				if (inp[i]==inp[j]) {
-				
-					hset.add(inp[i]);
-				}
-				
+			if (hset.add(inp[i])) {
 				
 			}
+			else {
+				duplicates.add(inp[i]);
+			}
+			
+				
+			
+			
+//			for (int j = i+1; j < inp.length; j++) {
+//				
+//				
+//				if (inp[i]==inp[j]) {
+//				
+//					hset.add(inp[i]);
+//					
+//				}
+//				
+//				
+//			}
 			
 			
 		}
 		
-		System.out.println(hset);
+		System.out.println("INput : - " + ss);
+		
+		System.out.println(duplicates);
 	}
 	
 	static void findDuplicatCharWithForLoop() {

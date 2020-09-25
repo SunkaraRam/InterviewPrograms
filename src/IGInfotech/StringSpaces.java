@@ -12,7 +12,7 @@ public class StringSpaces {
 		
 		String s4 =s2+"";
 
-		//System.out.println(s1.length()+"===="+s2.length()+"===="+s3.length()+"===="+s4.length());		
+		System.out.println(s1.length()+"===="+s2.length()+"===="+s3.length()+"===="+s4.length());		
 
 	System.out.println(s1==s2);
 	

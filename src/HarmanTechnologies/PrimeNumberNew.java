@@ -6,7 +6,7 @@ public class PrimeNumberNew {
 
 	public static void main(String[] args) {
 		
-		Normal(2558137);
+		//Normal(2558137);
 		NewPrime(2558137);
 		
 	}
@@ -32,10 +32,10 @@ public class PrimeNumberNew {
 		}		
 	}
 	
-public static void Normal(int value) {
+public static void Normal(int inp) {
 		
-		int inp;
-		inp = value;
+//		int inp;
+//		inp = value;
 		boolean flag = true;
 		for (int i = 2; i<inp&&i <=10; i++) {
 			

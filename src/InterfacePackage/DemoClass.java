@@ -15,13 +15,13 @@ public class DemoClass implements FirstInterface ,SecondInterface {
 	@Override
 	public void mySecondMethod() {
 		
-		System.out.println("My First Method Executed");
+		System.out.println("My second method Executed");
 	}
 
 	@Override
 	public void myFirstmethod() {
 		
-		System.out.println("My second method Executed");
+		System.out.println("My First Method Executed");
 
 	}
 

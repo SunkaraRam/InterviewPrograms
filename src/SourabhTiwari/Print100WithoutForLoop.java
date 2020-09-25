@@ -4,7 +4,7 @@ public class Print100WithoutForLoop {
 
 	public static void main(String[] args) {
 		
-		returnNumber(100);
+		returnNumber(10);
 		
 	}
 
@@ -17,6 +17,5 @@ public class Print100WithoutForLoop {
 		
 		System.out.println(number);
 	}
-	
 	
 }

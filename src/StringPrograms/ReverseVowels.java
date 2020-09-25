@@ -14,7 +14,7 @@ public class ReverseVowels {
 	        for (int i = 0; i < str.length; i++) { 
 	            if (isVowel(str[i])) { 
 	                j++; 
-	                vowel += str[i]; 
+	                vowel =vowel+str[i]; 
 	            } 
 	        } 
 	        for (int i = 0; i < str.length; i++) { 

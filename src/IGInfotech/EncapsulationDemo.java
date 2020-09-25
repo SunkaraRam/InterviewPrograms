@@ -52,5 +52,4 @@ public class EncapsulationDemo {
 		
 		System.out.println("Ename "+dn.getName() );
 	}
-
 }

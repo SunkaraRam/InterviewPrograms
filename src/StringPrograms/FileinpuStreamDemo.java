@@ -25,7 +25,7 @@ public class FileinpuStreamDemo {
 			
 			String str = "RamSunkara I have created 10th class";
 			
-			FileOutputStream fo = new FileOutputStream("d:\\111\\FeaturDemo.txt");
+			FileOutputStream fo = new FileOutputStream("d://555//FeaturDemo.txt");
 			
 			byte b[]= str.getBytes();
 			

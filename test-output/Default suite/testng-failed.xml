@@ -3,12 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Legato.StaticFinal">
+      <class name="CGI.Priority">
         <methods>
-          <include name="main1"/>
-          <include name="main"/>
+          <include name="ACB"/>
         </methods>
-      </class> <!-- Legato.StaticFinal -->
+      </class> <!-- CGI.Priority -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
