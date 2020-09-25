@@ -9,7 +9,7 @@ public class JavaScriptExecutorTest {
 		
 		System.setProperty("webdriver.gecko.driver", "d://geckodriver.exe");
 		
-		WebDriver driver = new FirefoxDriver();
+		WebDriver driver = new FirefoxDriver();//FireFox
 		driver.get("https://facebook.com");
 		WebElement we = driver.findElement(By.id("loginbutton"));
 		drawLine((JavascriptExecutor)driver, we);
