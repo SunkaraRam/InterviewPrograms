@@ -19,7 +19,7 @@ public class ScrollHorizontal {
 
 	
 	driver.get("https://weather.com/en-IN/weather/5day/l/USID0011:1:US");
-	Dimension d = new Dimension(521,628);
+	Dimension d = new Dimension(521,628);//sample
 	driver.manage().window().setSize(d);
 	driver.manage().timeouts().implicitlyWait(25, TimeUnit.SECONDS);
 	
