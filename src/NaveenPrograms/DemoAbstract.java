@@ -11,5 +11,6 @@ public abstract class DemoAbstract {
 		
 		return a+b;
 	}
+	
 
 }

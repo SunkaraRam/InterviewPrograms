@@ -12,7 +12,7 @@ public class AnimalHarmon {
 class Dog extends AnimalHarmon{
 	
 	void speak() {
-		System.out.println("woof");
+		System.out.println("bow");
 		
 	}
 }

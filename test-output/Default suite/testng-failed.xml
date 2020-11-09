@@ -3,11 +3,16 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="CGI.Priority">
+      <class name="HCL.AuthenticationPopupHandle">
         <methods>
-          <include name="ACB"/>
+          <include name="corporate"/>
+          <include name="personal"/>
+          <include name="logOut"/>
+          <include name="afterMethodDemo"/>
+          <include name="international"/>
+          <include name="beforeMethodDemo"/>
         </methods>
-      </class> <!-- CGI.Priority -->
+      </class> <!-- HCL.AuthenticationPopupHandle -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

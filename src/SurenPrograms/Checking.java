@@ -38,12 +38,6 @@ public class Checking {
 		driver.close();//This is driver.close();
 		
 		
-		
-		
-		
-		
-		
-		
 	}
 	
 }

@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="83" started-at="2020-08-21T14:02:01Z" finished-at="2020-08-21T14:02:01Z">
+  <suite name="Default suite" duration-ms="292" started-at="2020-11-09T13:03:58Z" finished-at="2020-11-09T13:03:58Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="83" started-at="2020-08-21T14:02:01Z" finished-at="2020-08-21T14:02:01Z">
-      <class name="CGI.Priority">
-        <test-method status="PASS" signature="ACD()[pri:-52, instance:CGI.Priority@457e2f02]" name="ACD" duration-ms="34" started-at="2020-08-21T14:02:01Z" finished-at="2020-08-21T14:02:01Z">
+    <test name="Default test" duration-ms="292" started-at="2020-11-09T13:03:58Z" finished-at="2020-11-09T13:03:58Z">
+      <class name="Legato.StaticFinal">
+        <test-method status="PASS" signature="main()[pri:0, instance:Legato.StaticFinal@457e2f02]" name="main" duration-ms="52" started-at="2020-11-09T13:03:58Z" finished-at="2020-11-09T13:03:58Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ACD -->
-        <test-method status="PASS" signature="ACB()[pri:0, instance:CGI.Priority@457e2f02]" name="ACB" duration-ms="0" started-at="2020-08-21T14:02:01Z" finished-at="2020-08-21T14:02:01Z">
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="main1()[pri:0, instance:Legato.StaticFinal@457e2f02]" name="main1" duration-ms="6" started-at="2020-11-09T13:03:58Z" finished-at="2020-11-09T13:03:58Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ACB -->
-      </class> <!-- CGI.Priority -->
+        </test-method> <!-- main1 -->
+      </class> <!-- Legato.StaticFinal -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

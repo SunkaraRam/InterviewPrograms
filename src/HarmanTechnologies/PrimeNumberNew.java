@@ -6,8 +6,8 @@ public class PrimeNumberNew {
 
 	public static void main(String[] args) {
 		
-		//Normal(2558137);
-		NewPrime(2558137);
+		Normal(256);
+		NewPrime(256);
 		
 	}
 	

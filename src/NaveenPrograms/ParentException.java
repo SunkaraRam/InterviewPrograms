@@ -10,9 +10,14 @@ public class ParentException {
 		
 		try {
 			m1();
-		} catch (IOException e) {
+		}
+		catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
-			e.printStackTrace();
+			//e.printStackTrace();
+			
+			System.out.println("File not found");
+			
+			
 		}
 		
 	}

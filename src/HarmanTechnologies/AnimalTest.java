@@ -8,9 +8,9 @@ class AnimalTest{
 		
 		animals[0] = new AnimalHarmon();
 		
-		animals[1] = new Cat();
+		animals[1] = new Dog();
 		
-		animals[2] = new Dog();
+		animals[2] = new Cat();
 		
 		for (int i = 0; i < animals.length; i++) {
 			

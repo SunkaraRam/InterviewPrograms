@@ -6,7 +6,7 @@ public class SentenceWordsReverse {
 
 	public static void main(String[] args) {
 		
-		String inp,revword = "", revSentence =" ",rev;
+		String inp,revword = "", revSentence ="",rev;
 		
 		Scanner s = new Scanner(System.in);
 		
@@ -20,7 +20,7 @@ public class SentenceWordsReverse {
 			
 			//System.out.println(words[i]);
 			
-			String now = words[i].toString();
+			String now = words[i];
 			
 			for (int j = now.length()-1; j >=0; j--) {
 				

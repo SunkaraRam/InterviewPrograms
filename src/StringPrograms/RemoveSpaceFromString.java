@@ -36,6 +36,8 @@ public class RemoveSpaceFromString {
 		
 		inp =s.nextLine();
 		
+		System.out.println(inp.length());
+		
 		StringBuffer sb = new StringBuffer();
 		
 		char[] ch = inp.toCharArray();
@@ -43,7 +45,12 @@ public class RemoveSpaceFromString {
 		for (int i = 0; i <ch.length; i++) {
 			
 			
-			if (ch[i]!=' '&&ch[i]!='\t' ) {
+//			if (ch[i]!=' '&&ch[i]!='\t' ) {
+//				
+//				sb.append(ch[i]);
+//			}
+			
+			if (ch[i]!=' '&&ch[i]!='\t') {
 				
 				sb.append(ch[i]);
 			}
@@ -51,6 +58,8 @@ public class RemoveSpaceFromString {
 		}
 		
 		System.out.println(sb);
+		
+		System.out.println(sb.length());
 	}
 	
 	

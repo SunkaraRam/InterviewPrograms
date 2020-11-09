@@ -5,17 +5,19 @@ public class ConstructorPreference {
 	static int a=322;
 	static String str;
 
+	
+	static {
+
+		a=2;
+		str = "second";
+	}
+	
 	static {
 
 		a=1;
 		str = "first";
 	}
 
-	static {
-
-		a=2;
-		str = "second";
-	}
 	
 	public ConstructorPreference() {
 	

@@ -20,7 +20,7 @@ public class TestExceptions {
 				
 			
 			
-		} catch (IOException | ArithmeticException x ){
+		} catch (ArithmeticException x ){
 			
 			System.out.println(x.getMessage());
 		}

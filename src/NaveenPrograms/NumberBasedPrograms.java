@@ -42,7 +42,22 @@ public class NumberBasedPrograms {
 		
 		String spacials = name.replaceAll("[^s]", "");
 		
-		System.out.println(spacials.length());
+		System.out.println(spacials);
+		
+		int count = 0;
+		
+		char[] dig = digits.toCharArray();
+		
+		
+		for (int i = 0; i < dig.length; i++) {
+			
+				int num = Character.getNumericValue(dig[i]);
+			
+				count  = count+num;
+				
+		}
+		
+		System.out.println(count);
 	}
 	
 	

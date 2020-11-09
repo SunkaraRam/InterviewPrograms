@@ -24,29 +24,49 @@ public class StringTwoWordsSwap {
 //		
 //		System.out.println(rev+" "+words[0] );
 		
-//		String a = "Ram";// 2
-//		
-//		String b = "Chinthappa";//9
-//		
-//		System.out.println("Before :"+a+" "+b+"");
-//		
+		String a = "Ram";// 2
+		
+		String b = "Chinthappa";//9
+		
+		System.out.println("Before :"+a+" "+b+"");
+	
+		a=a+b;
+		
+		b = a.substring(0,a.length()-b.length());
+		
+		a= a.substring(b.length());
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 //		a=a+b;//2+9 a= 11
 //		
 //		b = a.substring(0,a.length()-b.length());//0,11-9=2="Ram"
 //		
 //		a= a.substring(b.length());//
 //		
-//		System.out.println("After :"+a+" "+b+"");
-	
+		System.out.println("After :"+a+" "+b+"");
+//	
 		
-		int a = 10;
-		int b=12;
-		
-		System.out.println(a +""+b);
-		
-		a  =a+b;//10+12=22
-		b= a-b;//22-12=10
-		a=a-b;//22-10=12
+//		int a = 10;
+//		int b=12;
+//		
+//		System.out.println(a +""+b);
+//		
+//		a  =a+b;//10+12=22
+//		b= a-b;//22-12=10
+//		a=a-b;//22-10=12
 	}
 
 }

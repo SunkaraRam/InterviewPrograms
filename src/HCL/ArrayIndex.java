@@ -7,7 +7,7 @@ public class ArrayIndex {
 	public static void main(String[] args) {
 		
 		//int arr[] = new int[5]; //
-		int arr[] = {5,9,8,7,2,1};
+		int[] arr= {5,9,8,7,2,1};
 		
 //		for (int i = 5; i > 0; i--) {
 //			
@@ -17,8 +17,7 @@ public class ArrayIndex {
 //		System.out.println("============");
 //	
     	Arrays.sort(arr);
-		
-		
+    	
 		for (int i = 0; i < arr.length; i++) {
 			
 			System.out.println(arr[i]);

@@ -14,6 +14,9 @@ public class NumbersFromStringWithSEtoggle {
         int maxlength,minlength;
         maxlength=Integer.MIN_VALUE;
         minlength=Integer.MAX_VALUE;
+        
+        System.out.println(minlength);
+        
         String largest,smallest;
         largest = smallest = "";
         for(i=0;i<arr.length;i++){
@@ -29,6 +32,38 @@ public class NumbersFromStringWithSEtoggle {
         System.out.println("The largest and smallest word is \"" + largest +
                                                "\" and \"" + smallest + "\"");
     }
+    
+    
+    static void largeandsmallwordPractice(String str) {
+    	
+    	String[] s = str.split(" ");
+    	
+    	int maxlength = Integer.MIN_VALUE;
+    	
+    	int minlength = Integer.MAX_VALUE;
+    	
+    	String largeword = "",smallword = "";
+    	
+    	for (int i = 0; i < s.length; i++) {
+			
+    		if (s[i].length()<minlength) {
+				
+    			smallword = s[i];
+    			
+    			minlength = s[i].length();
+    			
+			}
+    		if (s[i].length()>maxlength) {
+				
+    			largeword = s[i];
+    			
+    			maxlength = s[i].length();
+			}
+		}
+    	
+    	
+    	System.out.println("lar :"+largeword+" smal :"+smallword);
+    }
     // Main function to read the string
     public static void main(String[] args) {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -41,7 +76,9 @@ public class NumbersFromStringWithSEtoggle {
             System.out.println("Error reading input");
             return;
         }
-        printLargestAndSmallestWord(str);
+        //printLargestAndSmallestWord(str);
+        largeandsmallwordPractice(str);
+    
     }
 //
 //	public static void main(String[] args) {

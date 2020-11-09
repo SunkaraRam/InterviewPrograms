@@ -6,6 +6,7 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class FileWriterDemo {
@@ -38,11 +39,11 @@ public class FileWriterDemo {
 			
 			int num = sc.nextInt();
 			
-			while (num>0) {
+			while (num>=0) {
 				
 				String name = sc.nextLine();
 				
-				if ("st".equalsIgnoreCase(name)) {
+				if ("stop".equalsIgnoreCase(name)) {
 					
 					break;
 					
@@ -51,7 +52,7 @@ public class FileWriterDemo {
 				System.out.println("Enter name of the student :");
 				
 				
-				if (name.equals("")) {
+				if (name.equals(" ")) {
 				
 					br.write("null");
 					
@@ -60,6 +61,8 @@ public class FileWriterDemo {
 				br.write(name);
 				
 				br.newLine();
+				
+				num--;
 				
 			}
 		br.close();
@@ -78,7 +81,16 @@ public class FileWriterDemo {
 			
 		}
 		
-		} catch (FileNotFoundException e) {
+		
+		
+		}
+		
+		catch (InputMismatchException e) {
+
+			System.out.println("Please Enter Numbers only");
+		
+		}
+		catch (FileNotFoundException e) {
 			
 			System.out.println("File not available");
 			

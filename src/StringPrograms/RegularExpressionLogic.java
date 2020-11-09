@@ -14,7 +14,7 @@ public class RegularExpressionLogic {
 		
 		int total = 0;
 		
-		for(int i=s1.length()-1;i>=0;i--) {
+		for(int i=0;i<s1.length();i++) {
 			
 			 Character ch =s1.charAt(i);
 			

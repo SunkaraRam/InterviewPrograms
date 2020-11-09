@@ -6,11 +6,13 @@ public class RegularExpressionLogic {
 		
 		String s = "LRa@#$mSunkara16465/*/-/-+'alsjdflklk3";
 		
-		String s1 = s.replaceAll("[^0-9]","");
+		String s1 = s.replaceAll("[^0-9]","");// String s1=s.replaceAll("[^0-9]","");
 		
-		String s2 = s.replaceAll("[^a-zA-Z]", "");
+		String s2 = s.replaceAll("[^a-zA-Z]", "");// String s2 = s.replaceAll("[a-zA-Z]","");
 		
 		System.out.println(s1);
+		
+		System.out.println(s2);
 		
 		System.out.println(s.replaceAll("[^a-zA-Z0-9]", "*"));
 		

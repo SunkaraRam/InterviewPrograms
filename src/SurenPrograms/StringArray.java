@@ -30,14 +30,10 @@ public class StringArray {
 			for (int j = words[i].length()-1; j >=0; j--) { //    araknuS mar si sihT  
 				
 				res = res+words[i].charAt(j);//araknus+" " 
-				
-				if (j==0) {
-					
-					res = res+" "; //araknuS 
-				}
-				
+								
 			}
-			 
+			res = res+" "; //araknuS 
+			
 			 
 		}
 		
