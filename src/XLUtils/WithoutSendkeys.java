@@ -17,18 +17,18 @@ public class WithoutSendkeys {
 	@Test
 	public void sendKeys() {
 		
-		System.setProperty("webdriver.chrome.driver", "d://chromedriver.exe");
-		
-		driver = new ChromeDriver();
-		
-		driver.get("http://www.apsrtconline.in/oprs-web/guest/home.do?h=1");
-
-		driver.manage().window().maximize();
-		
-		WebElement txt =driver.findElement(By.cssSelector("#fromPlaceName"));
-		
-		((JavascriptExecutor)driver).executeAsyncScript("assignments[0].value='Sunkara'", txt);
-		
+//		System.setProperty("webdriver.chrome.driver", "d://chromedriver.exe");
+//		
+//		driver = new ChromeDriver();
+//		
+//		driver.get("http://www.apsrtconline.in/oprs-web/guest/home.do?h=1");
+//
+//		driver.manage().window().maximize();
+//		
+//		WebElement txt =driver.findElement(By.cssSelector("#fromPlaceName"));
+//		
+//		((JavascriptExecutor)driver).executeAsyncScript("assignments[0].value='Sunkara'", txt);
+//		
 	}
 
 }
